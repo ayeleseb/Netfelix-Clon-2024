@@ -1,10 +1,15 @@
 import React from 'react'
+import Header from '../../components/Heder/Header'
+import Footer from '../../components/Footer/Footer'
+import Banner from '../../components/Banner/Banner'
 
 function Home() {
   return (
-    <div>
-      Home
-    </div>
+    <>
+   <Header/>
+   <Banner/>
+   <Footer/>
+    </>
   )
 }
 
